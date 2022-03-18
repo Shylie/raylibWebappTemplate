@@ -1,2 +1,4 @@
 app/*.o
 app/build/
+
+.vscode
