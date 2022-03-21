@@ -44,7 +44,7 @@ do\
 while (false)
 #else
 #define CustomSaveStorageValue(position, value) SaveStorageValue(position, value)
-#define CustomLoadStorageValue(position) LoadStorageValue(position);
+#define CustomLoadStorageValue(position) LoadStorageValue(position)
 #define CustomSetClipboardText(text) SetClipboardText(text)
 #define CustomGetClipboardText() GetClipboardText()
 #define CustomFreeClipboardText(ptr)
